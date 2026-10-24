@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ritik Kumar — Player Profile</title><meta name="description" content="Ritik Kumar: B.Tech CSE student, developer and digital designer.">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="boot" role="dialog" aria-label="System boot"><pre id="bootlog"></pre><button id="skip" class="btn">SKIP ▸</button></div>
+<div class="fx" aria-hidden="true"></div>
+<header class="hud"><a href="#top" class="logo">R<i>//</i>K</a>
+<nav id="menu" aria-label="Primary"><a href="#top">PROFILE</a><a href="#missions">MISSIONS</a><a href="#arsenal">ARSENAL</a><a href="#lab">LAB</a><a href="#career">CAREER</a><a href="#about">BACKGROUND</a><a href="#contact">CONNECT</a></nav>
+<div class="tools"><button id="termBtn" class="btn sm" aria-label="Open terminal">&gt;_</button><button id="mode" class="btn sm" aria-pressed="false">HACKER</button><button id="burger" aria-label="Menu" aria-expanded="false">☰</button></div></header>
+<main>
+<section id="top" class="hero"><div class="hcopy"><p class="mono dim">&gt; PLAYER_PROFILE.LOAD() <span class="ok">[OK]</span></p>
+<h1 class="glitch" data-t="RITIK KUMAR">RITIK KUMAR</h1>
+<p class="role"><span id="type"></span><b class="cur">_</b></p>
+<p class="mono dim">B.Tech CSE student · Developer · Digital designer</p>
+<div class="row"><a class="btn pri" href="#arsenal">START EXPLORING</a><a class="btn" href="#missions">VIEW MISSIONS</a><a class="btn mag" href="#contact">ESTABLISH CONNECTION</a></div></div>
+<aside class="panel profile"><img src="assets/images/portfolio photo.jpeg" alt="Ritik Kumar, Content and Design Lead, AWS Student Builder Group" width="560" height="700">
+<ul class="mono"><li>NAME <b>Ritik Kumar</b></li><li>CLASS <b>B.Tech CSE</b></li><li>GUILD <b>AWS SBG, RIT Roorkee</b></li><li>ROLE <b>Design &amp; Content Lead</b></li><li>STATUS <b class="ok">ONLINE</b></li></ul></aside></section>
+<section id="missions" class="sec"><h2>// MISSIONS</h2><div class="cards" id="missionGrid"></div></section>
+<section id="arsenal" class="sec"><h2>// TECH ARSENAL</h2><div id="inv" class="inv"></div></section>
+<section id="lab" class="sec"><h2>// CREATIVE LAB</h2><div class="filters" id="filters" role="tablist"></div><div id="labGrid" class="lab"></div><h3 class="sub">VIDEO EDITS</h3><div id="vids" class="vids"></div></section>
+<section id="career" class="sec"><h2>// CAREER PROGRESS</h2><div id="log" class="log"></div><div id="badges" class="badges"></div><p id="badgeInfo" class="panel info mono" aria-live="polite">Select a badge for details.</p></section>
+<section id="about" class="sec"><h2>// PLAYER BACKGROUND</h2><div class="panel about"><p>I am a B.Tech CSE student who builds software and designs the visuals around it. I work in Java, C++, Python and the web stack, and I make thumbnails, posters, social creatives and short-form video.</p><p>I serve as Design &amp; Content Lead at AWS Student Builder Group, RIT Roorkee, which keeps both sides of my work active: code that runs and design that gets noticed.</p></div></section>
+<section id="contact" class="sec"><h2>// ESTABLISH CONNECTION</h2><div class="two"><div class="panel"><a class="mail" href="mailto:ritikkumar.coder@gmail.com">ritikkumar.coder@gmail.com</a><p class="row"><a class="btn" target="_blank" rel="noopener" href="https://www.instagram.com/ritik_lifedecoder/">INSTAGRAM ↗</a><a class="btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/ritikkumargupta05/">LINKEDIN ↗</a><a class="btn" target="_blank" rel="noopener" href="https://github.com/ritiks-05">GITHUB ↗</a></p></div>
+<form id="form" class="panel"><label>Name<input required name="n"></label><label>Email<input required type="email" name="e"></label><label>Message<textarea required rows="4" name="m"></textarea></label><button class="btn pri" type="submit">TRANSMIT VIA EMAIL ▸</button><p class="mono dim">No backend: this opens your email app with the message prefilled.</p></form></div></section>
+</main><footer class="mono dim">© Ritik Kumar · SYSTEM ONLINE</footer>
+<div id="ov" class="ov" hidden role="dialog" aria-modal="true"><button id="ovx" class="x" aria-label="Close">✕</button><div id="ovb" class="ovb"></div></div>
+<div id="term" class="term" hidden role="dialog" aria-label="Terminal"><div class="th"><span>RK-TERMINAL</span><button id="termX" aria-label="Close terminal">✕</button></div><div id="out" aria-live="polite"></div><label class="tl">&gt;<input id="cmd" autocomplete="off" spellcheck="false" aria-label="Command"></label></div>
+<script src="main.js"></script></body></html>
